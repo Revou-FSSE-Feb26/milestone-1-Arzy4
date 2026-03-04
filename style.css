@@ -120,7 +120,7 @@ body{
     grid-template-columns: repeat(3, 1fr);
     text-align: center;
     gap: 3rem;
-    margin: 5rem 8rem 6rem 8rem;
+    margin: 2rem 4rem;
     font-size: 18px;
 }
 
@@ -181,12 +181,12 @@ body{
     .navbar-container{
         flex-direction: column;
         justify-content: center;
-        align-items: center;
     }
     .navbar-logo{
         margin-left: 0;
     }
     .navbar-navigation{
+        padding: 0;
         margin-right: 0;
         justify-content: center;
         width: 100%;
@@ -212,8 +212,69 @@ body{
     }
 
     /* contact */
+    .contact-description{
+        max-width: 350px;
+    }
+    .contact{
+        background-color: #8A7650;
+        display: grid;
+        grid-template-columns: 3fr 1fr 1fr;
+        justify-content: center;
+        gap: 2rem;
+        padding: 2rem 0 0 4%;
+    }
 }
+@media(max-width: 700px){
+    /* about */
+    .about-container{
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+    }
+    .about-title1,
+    .about-title2,
+    .about-title3{
+        margin: 3rem 0 1rem 2rem;
+        font-size: 25px;
+    }
+    .about-description1,
+    .about-description3{
+        font-size: 18px;
+        margin: 0 2rem;
+        text-align: justify;
+    }
 
+    .about-description2-text1{
+        font-size: 18px;
+        margin: 0 2rem;
+    }
+    .about-description2-text2 li{
+        font-size: 18px;
+        margin: 0 2rem;
+    }
+    .about-description2-text3{
+        font-size: 18px;
+        margin: 0 2rem;
+    }
+
+    /* projects */
+    .projects-container{
+        display: flex;
+        flex-direction: column;
+        margin: 6rem 0 3rem;
+    }
+
+    /* contact */
+    .contact{
+        display: flex;
+        flex-direction: column;
+        padding: 2rem 0 3rem 6rem;
+    }
+    .contact-description{
+        max-width: 500px;
+        margin: 0 6rem 0 0;
+    }
+}
 /* Additional */
 hr{
     border: 0.5px solid black;
