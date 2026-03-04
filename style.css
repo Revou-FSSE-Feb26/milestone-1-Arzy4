@@ -43,13 +43,23 @@ body{
 }
 .hero-header{
     font-size: 40px;
-    max-width: 600px;
+    margin-top: 8rem;
 }
 .hero-description{
     font-size: 25px;
     text-align: justify;
     margin: 0 2rem 0 0;
     max-width: 600px;
+}
+.hc-list{
+    display: flex;
+    list-style: none;
+    padding: 2rem 0 0 0;
+}
+.hc-list img{
+    width: 25px;
+    height: 25px;
+    margin-right: 1rem;
 }
 
 /* About Me */
@@ -111,6 +121,7 @@ body{
     text-align: center;
     gap: 3rem;
     margin: 5rem 8rem 6rem 8rem;
+    font-size: 18px;
 }
 
 /* Contact Style */
@@ -118,17 +129,19 @@ body{
     background-color: #8A7650;
     display: grid;
     grid-template-columns: 3fr 1fr 1fr;
-    padding: 2rem 0 3rem 10rem;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem 0 0 10%;
 }
 .contact-header{
     font-size: 30px;
     color: #262626;
     font-weight: bold;
 }
-.contact-desc{
-    font-size: 18px;
+.contact-description{
+    font-size: 25px;
     font-weight: normal;
-    max-width: 100%;
+    max-width: 750px;
     text-align: justify;
     color: #262626;
 }
@@ -145,7 +158,7 @@ body{
 .contact-container3 a{
     color: #262626;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 25px;
 }
 /*update info*/
 .update-container{
@@ -160,6 +173,45 @@ body{
     justify-content: space-between;
      padding: 0 1rem;
     font-size: 14px;
+}
+
+/* Mobile Responsive settings */
+@media(max-width: 900px){
+    /* navbar */
+    .navbar-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar-logo{
+        margin-left: 0;
+    }
+    .navbar-navigation{
+        margin-right: 0;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    /* hero */
+    .hero{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-header{
+        text-align: center;
+        margin: -3rem 2rem 1.5rem;
+    }
+    .hero-description{
+        text-align: justify;
+        margin: 0 2rem;
+    }
+    .hc-list{
+        padding: 2rem 0 3rem 0;
+        justify-content: center;
+    }
+
+    /* contact */
 }
 
 /* Additional */
