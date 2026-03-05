@@ -139,7 +139,7 @@ body{
 .contact-text{
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 3rem;
     max-width: 1000px;
     margin: 3rem auto;
 }
