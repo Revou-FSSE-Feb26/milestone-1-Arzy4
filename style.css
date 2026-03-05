@@ -67,10 +67,8 @@ body{
 }
 
 /* About Me */
-.about{
-    padding: 2rem 0;
-}
 .about-header{
+    padding: 2rem 0;
     text-align: center;
     font-size: 45px;
 }
@@ -112,10 +110,8 @@ body{
 }
 
 /* Projects style */
-.projects{
-    padding: 2rem 0;
-}
 .projects-header{
+    padding: 2rem 0;
     text-align: center;
     font-size: 45px;
 }
