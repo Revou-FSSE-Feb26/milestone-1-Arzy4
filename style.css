@@ -94,7 +94,7 @@ body{
 }
 .about-description1,
 .about-description3{
-    margin-right: 2rem;
+    margin: 2rem 0 4rem 0;
     max-width: 700px;
     font-size: 18px;
     text-align: justify;
@@ -109,7 +109,7 @@ body{
 .about-description2-text3{
     font-size: 18px;
     max-width: 700px;
-    margin-right: 2rem;
+    margin: 2rem;
 }
 
 /* Projects style */
