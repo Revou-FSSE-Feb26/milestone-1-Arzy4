@@ -94,7 +94,7 @@ body{
 }
 .about-description1,
 .about-description3{
-    margin: 2rem 2rem 4rem 0;
+    margin: 2rem 0rem 4rem 0;
     max-width: 700px;
     font-size: 18px;
     text-align: justify;
