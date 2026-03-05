@@ -34,6 +34,9 @@ body{
     color: #262626;
     text-decoration: none;
 }
+.navbar-navigation a:hover{
+    color: #FF9644;
+}
 /* Hero Style */
 .hero{
     display: flex;
@@ -198,6 +201,14 @@ body{
 }
 .cp-btn button{
     font-size: 14px;
+    padding: 10px;
+    background-color: #262626;
+    color: #EDE8D0;
+    border-radius: 15px;
+}
+.cp-btn button:hover{
+    background-color: #8A7650;
+    color: #FF9644;
 }
 
 /* Contact Style */
