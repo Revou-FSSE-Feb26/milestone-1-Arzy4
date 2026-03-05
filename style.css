@@ -58,6 +58,7 @@ body{
 .social-links-list{
     display: flex;
     list-style: none;
+    gap: 1rem;
     padding: 2rem 0 0 0;
 }
 .social-links-list img{
