@@ -3,7 +3,7 @@
 ---
 
 ![screenshot of my Personal Portfolio Home section](./image/Portfolio_Screenshot.png)
-My Personal Portfolio website at 
+My Personal Portfolio website 
 
 ---
 
