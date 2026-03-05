@@ -39,3 +39,18 @@ The development of this website involved the use of several tools and technologi
 2. **Technologies**
     - HTML: Markup language used to structure the content of the website.
     - CSS: Style sheet language used to design and layout the website, making the website more appealing.
+
+---
+
+## How to Access the Website
+
+The website is deployed using GitHub Pages and can be accessed through the following link:
+
+`https://revou-fsse-feb26.github.io/milestone-1-Arzy4/`
+
+Once opened, users can navigate through the main sections of the website:
+
+1. **Home** – Introduction for visitors
+2. **About** – Information about my background and journey
+3. **Projects** – A showcase of projects I have worked on
+4. **Contact** – A form and links to reach me through various platforms
