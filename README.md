@@ -2,8 +2,8 @@
 
 ---
 
-![screenshot of my Personal Portfolio Home section](./image/Portfolio_Screenshot.png)
-My Personal Portfolio website at https://revou-fsse-feb26.github.io/milestone-1-Arzy4/
+![View the Live Website](./image/Portfolio_Screenshot.png)
+🔗 [View the Live Personal Portfolio Website](https://revou-fsse-feb26.github.io/milestone-1-Arzy4/)
 
 ---
 
@@ -22,8 +22,16 @@ This website is designed to demonstrate my abilities as a Software Engineer and 
 3. Featured Projects: This section **presents all projects** that demonstrate my technical skills, problem-solving abilities, and growing experience in building modern web applications.
 4. Multi-Channel Contact Options: Integrates **direct links** to LinkedIn, Email, WhatsApp, Instagram, and Telegram for **easy communication**.
 5. Clean, Responsive Design: **Built with HTML and CSS** to provide a visually appealing and accessible layout across devices.
+6. CSS Styling and Layout Techniques: The website uses **modern CSS techniques** such as Flexbox for layout structuring, CSS variables for consistent design values, hover effects and transitions for interactive elements, box shadows and gradients for visual styling, and responsive media queries to ensure the website adapts smoothly across different screen sizes.
 
-This website is still a work in progress, with improvements planned for responsiveness and layout. Feel free to explore the latest version of my portfolio.
+### Future Improvements
+
+This portfolio will continue to evolve with additional features such as:
+
+- Improved mobile responsiveness
+- JavaScript interactivity
+- More featured projects
+- Performance optimizations
 
 ---
 
