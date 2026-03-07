@@ -60,6 +60,7 @@
 .about-description2-text3,
 .about-description3 {
     font-size: var(--fs-body);
+    word-spacing: 5px;
 }
 
 html{
@@ -200,7 +201,7 @@ body{
     transition: transform 0.3s ease;
 }
 .projects-container article:hover{
-    transform: translateY(-10px);
+    transform: translateY(-20px);
 }
 
 /* Contact style */
