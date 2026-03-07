@@ -100,7 +100,7 @@ body{
     gap: 1rem;
 }
 .about-image img{
-    width: 250px;
+    width: 350px;
     background-color: red;
     margin: 2rem 0 0 0;
     box-shadow: 10px 10px 10px rgba(0,0,0,0.15);
@@ -316,7 +316,7 @@ body{
 }
 
 /* Mobile Responsive settings */
-@media(max-width: 1076px){
+@media(max-width: 1126px){
     /* about */
     .about-container2{
         order: 2;
@@ -347,6 +347,9 @@ body{
         justify-content: center;
         align-items: center;
     }
+    .hero-image img{
+        width: 300px;
+    }
     .hero-header{
         text-align: center;
         margin: -3rem 2rem 1.5rem;
@@ -363,6 +366,9 @@ body{
     /* about */
     .about-image{
         order: 1;
+    }
+    .about-image img{
+        width: 250px;
     }
     .about-container2{
         order: 2
