@@ -169,7 +169,7 @@ body{
 
 /* About Me */
 .about{
-    background-color: var(--accent);
+    background: linear-gradient(180deg, var(--accent), var(--dark));
     color: var(--light);
 }
 .about-header{
@@ -233,7 +233,7 @@ body{
 /* Contact style */
 /* Contact Text */
 .contact{
-    background-color: var(--accent);
+    background: linear-gradient(180deg, var(--accent), var(--dark));
     color: var(--light);
 }
 .contact-header{
