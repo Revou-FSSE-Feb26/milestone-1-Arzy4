@@ -315,11 +315,12 @@ body{
     transform: translateY(-3px);
 }
 .success-message{
+    background-color: var(--accent);
+    padding: 0 0 4rem 0;
     text-align: center;
     opacity: 0;
-    color: #214721;
+    color: #4a874a;
     font-weight: bold;
-    margin: 2rem;
     transition: opacity 0.5s ease;
 }
 .success-message.show{
