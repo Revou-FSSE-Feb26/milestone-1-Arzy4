@@ -311,6 +311,7 @@ body{
 .cp-btn button:hover{
     background-color: var(--hover-bg);
     color: var(--hover-text);
+    font-weight: bold;
     transform: translateY(-3px);
 }
 .success-message{
