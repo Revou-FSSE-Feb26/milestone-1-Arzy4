@@ -276,6 +276,7 @@ body{
     width: 100%;
     height: 30px;
     box-sizing: border-box;
+    border-radius: 5px;
 }
 .cp-input1{
     display: flex;
