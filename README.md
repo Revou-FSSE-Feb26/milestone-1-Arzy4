@@ -3,7 +3,7 @@
 ---
 
 ![View the Live Website](./image/Portfolio_Screenshot.png)
-🔗 [View the Live Personal Portfolio Website](https://revou-fsse-feb26.github.io/milestone-1-Arzy4/)
+🔗 [View Live Personal Portfolio Website](https://revou-fsse-feb26.github.io/milestone-1-Arzy4/)
 
 ---
 
