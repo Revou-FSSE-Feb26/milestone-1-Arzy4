@@ -33,6 +33,9 @@ This portfolio will continue to evolve with additional features such as:
 - More featured projects
 - Performance optimizations
 
+### New Update
+- New Color Theme
+
 ---
 
 ## Tools and Technologies
