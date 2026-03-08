@@ -35,6 +35,7 @@ This portfolio will continue to evolve with additional features such as:
 
 ### New Update
 - New Color Theme
+- Engaging Background Color
 
 ---
 
