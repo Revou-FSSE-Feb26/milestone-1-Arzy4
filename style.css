@@ -4,8 +4,9 @@
     --accent: #272757;
     --highlight: #505081;
     --light: #d5d5e6;
-    --btn-hover-bg: #305CDE;
-    --btn-hover-text: #182E6F;
+    --hover-bg: #305CDE;
+    --hover-text: #182E6F;
+    --hover-text1: #59B5F7;
 
     --fs-xl: 45px;
     --fs-lg: 40px;
@@ -25,9 +26,15 @@
 .navbar-navigation,
 .hero-header,
 .hero-description,
+.about-header
 .about-title1,
 .about-title2,
 .about-title3,
+.about-description1,
+.about-description2-text1,
+.about-description2-text2,
+.about-description2-text3,
+.about-description3
 .projects-header,
 .projects-container figcaption,
 .contact-header,
@@ -72,6 +79,11 @@
 .footer-container3 a{
     color: var(--dark);
 }
+.navbar-container,
+.about,
+.contact{
+    box-shadow: 0 10px 6px rgba(0,0,0,0.1);
+}
 
 html{
     scroll-behavior: smooth;
@@ -95,7 +107,6 @@ body{
     width: 100%;
     top: 0;
     z-index: 1000;
-    box-shadow: 0 10px 6px rgba(0,0,0,0.1);
 }
 .navbar-logo{
     font-size: var(--fs-lg);
@@ -116,7 +127,7 @@ body{
     text-decoration: none;
 }
 .navbar-navigation a:hover{
-    color: var(--bg-hover);
+    color: var(--hover-text1);
 }
 /* Hero Style */
 .hero{
@@ -298,8 +309,8 @@ body{
     transition: transform 0.3s ease;
 }
 .cp-btn button:hover{
-    background-color: var(--bg-hover);
-    color: var(--fs-hover);
+    background-color: var(--hover-bg);
+    color: var(--hover-text);
     transform: translateY(-3px);
 }
 .success-message{
@@ -349,7 +360,7 @@ body{
 }
 .footer-container2 a:hover,
 .footer-container3 a:hover{
-    color: #59B5F7;
+    color: var(--hover-text1);
 }
 .footer-address{
     font-style: normal;
