@@ -365,6 +365,9 @@ body{
     color: var(--light);
     font-size: var(--fs-sm);
 }
+.social-links-list a:hover{
+    color: var(--hover-text1);
+}
 .social-links-list img{
     width: 30px;
     height: 30px;
