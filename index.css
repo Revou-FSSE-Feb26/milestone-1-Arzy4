@@ -116,6 +116,8 @@ body{
     font-size: var(--fs-lg);
     margin-left: 2rem;
     color: var(--light);
+    text-decoration: none;
+    font-weight: bold;
 }
 .navbar-navigation{
     display: flex;
