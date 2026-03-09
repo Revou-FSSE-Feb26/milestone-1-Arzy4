@@ -37,7 +37,7 @@ This portfolio will continue to evolve with additional features such as:
 - New color theme
 - Engaging background color
 - New Portfolio layout
-- Add "SKillS & TOOLS" in About section 
+- Add "SKILLS & TOOLS" in About section 
 
 ---
 
