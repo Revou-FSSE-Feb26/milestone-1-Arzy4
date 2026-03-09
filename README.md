@@ -34,8 +34,10 @@ This portfolio will continue to evolve with additional features such as:
 - Performance optimizations
 
 ### New Update
-- New Color Theme
-- Engaging Background Color
+- New color theme
+- Engaging background color
+- New Portfolio layout
+- Add "SKillS & TOOLS" in About section 
 
 ---
 
