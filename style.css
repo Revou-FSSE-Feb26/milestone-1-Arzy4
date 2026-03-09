@@ -62,10 +62,7 @@
     box-shadow: var(--shadow-medium);
 }
 .about-description1,
-.about-description2-text1,
-.about-description2-text2 li,
-.about-description2-text3,
-.about-description3 {
+.about-description2{
     font-size: var(--fs-body);
     word-spacing: 5px;
 }
@@ -84,6 +81,12 @@
 .contact,
 .update-info{
     box-shadow: 0 10px 6px rgba(0,0,0,0.1);
+}
+section{
+    scroll-margin-top: 150px;
+}
+#Projects{
+    scroll-margin-top: 210px;
 }
 
 html{
@@ -139,42 +142,29 @@ body{
 }
 .hero-image img{
     width: 400px;
-    margin: 15rem 0 5rem;
+    border-radius: 200px;
+    margin: 15rem 0 7rem;
 }
 .hero-header{
     font-size: var(--fs-lg);
-    margin-top: 8rem;
+    max-width: 500px;
+    margin: 10rem 0 1rem 3rem;
 }
 .hero-description{
     font-size: var(--fs-sm-lg);
     text-align: justify;
-    margin: 0 2rem 0 0;
-    max-width: 600px;
-}
-.social-links-list{
-    display: flex;
-    list-style: none;
-    gap: 1rem;
-    padding: 2rem 0 0 0;
-}
-.social-links-list img{
-    width: 25px;
-    height: 25px;
-    box-shadow: var(--shadow-soft);
-    border-radius: 5px;
-    transition: transform 0.3s ease;
-}
-.social-links-list img:hover{
-    transform: scale(1.3);
+    max-width: 500px;
+    margin: 0 0 3rem 3rem;
 }
 
 /* About Me */
+/* About Intro */
 .about{
     background: linear-gradient(180deg, var(--accent), var(--dark));
     color: var(--light);
 }
 .about-header{
-    padding: 3rem 0 0 0;
+    padding: 4rem 0 0 0;
 }
 .about-container1{
     display: flex;
@@ -183,40 +173,71 @@ body{
     gap: 1rem;
 }
 .about-image img{
-    width: 350px;
+    width: 300px;
     margin: 2rem 0 0 0;
 }
-.about-container2 h2{
-    margin: 3rem 0 0 2rem;
+.about-title{
+    margin: 3rem 0 0 0;
     font-size: var(--fs-sm-lg);
 }
 .about-description1,
-.about-description3{
-    margin: 1rem 0 4rem 2rem;
+.about-description2{
+    margin: 1rem 2rem 4rem 0;
     max-width: 700px;
     text-align: justify;
 }
-.about-description2-text1{
-    margin-left: 2rem;
+/* About SkillS and TOOLS */
+.st-header{
+    text-align: center;
+    padding: 2rem;
 }
-.about-description2-text2 li{
-    margin-left: 2rem;
+.st-container2{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
 }
-.about-description2-text3{
-    max-width: 700px;
-    margin: 2rem 0 0 2rem;
+.HTML,
+.CSS,
+.JS,
+.Figma,
+.VS_Code{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 170px;
+    width: 140px;
+    margin-bottom: 5rem;
+    border-radius: 20px;
+    background-color: var(--accent);
+}
+.HTML img,
+.CSS img,
+.JS img,
+.Figma img,
+.VS_Code img{
+    margin-bottom: 1rem;
+    width: 60px;
+    height: 60px;
+}
+.HTML figcaption,
+.CSS figcaption,
+.JS figcaption,
+.Figma figcaption,
+.VS_Code figcaption{
+    font-size: var(--fs-small);
 }
 
 /* Projects style */
 .projects-header{
-    padding: 2rem 0;
+    margin: 4rem 0 4rem 0;
 }
 .projects-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     text-align: center;
     font-size: var(--fs-body);
-    padding-bottom: 2rem;
+    padding-bottom: 4rem;
     gap: 2rem;
 }
 .projects-container img{
@@ -238,6 +259,7 @@ body{
 .contact{
     background: linear-gradient(180deg, var(--accent), var(--dark));
     color: var(--light);
+    padding: 0.5rem 0 0 0;
 }
 .contact-header{
     padding: 5rem 0 0 0;
@@ -247,9 +269,9 @@ body{
     justify-content: center;
     gap: 3rem;
     max-width: 1000px;
-    margin: 3rem auto;
+    margin: 1rem auto;
 }
-.contact-subheader{
+.contact-subheader1{
     font-size: var(--fs-md);
     text-align: center;
     margin: 3rem 3rem 3rem 3rem;
@@ -258,6 +280,9 @@ body{
     text-align: justify;
     font-size: var(--fs-sm);
     margin: 0 0 3rem 0;
+}
+.text-highlight{
+    color: var(--hover-text1);
 }
 /* Contact Form */
 .contact-placeholder{
@@ -301,7 +326,8 @@ body{
 .cp-btn{
     display: flex;
     justify-content: end;
-    margin: 0.5rem 0;
+    gap: 1rem;
+    margin: 1rem 0 0 0;
 }
 .cp-btn button{
     font-size: var(--fs-xs);
@@ -316,12 +342,47 @@ body{
     background-color: var(--hover-bg);
     color: var(--hover-text);
     font-weight: bold;
-    transform: translateY(-3px);
+    transform: translateY(-10px);
+}
+/* Contact Information */
+.contact-subheader2{
+    margin: 3rem 0 0 0;
+    font-size: var(--fs-md);
+}
+.social-links-list{
+    justify-content: center;
+    list-style: none;
+    padding: 1rem 0 0 0;
+}
+.social-links-list li{
+    margin-bottom: 0.5rem ;
+}
+.social-links-list a{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-decoration: none;
+    color: var(--light);
+    font-size: var(--fs-sm);
+}
+.social-links-list img{
+    width: 30px;
+    height: 30px;
+    box-shadow: var(--shadow-soft);
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+.social-links-list img:hover{
+    transform: scale(1.3);
+}
+/* Message style */
+.sc-container{
+    display: flex;
+    justify-content: right;
+    margin-right: 2.5rem;
+    margin-bottom: 4rem;
 }
 .success-message{
-    background-color: var(--accent);
-    padding: 0 0 4rem 0;
-    text-align: center;
     opacity: 0;
     color: #4a874a;
     font-weight: bold;
@@ -417,8 +478,14 @@ body{
         justify-content: center;
         align-items: center;
     }
+    .hero-container{
+        order: 2;
+        margin-bottom: 3rem;
+    }
     .hero-image img{
         width: 300px;
+        order: 1;
+        margin-bottom: 5rem;
     }
     .hero-header{
         text-align: center;
@@ -427,10 +494,6 @@ body{
     .hero-description{
         text-align: justify;
         margin: 0 2rem;
-    }
-    .social-links-list{
-        padding: 2rem 0 3rem 0;
-        justify-content: center;
     }
 
     /* about */
@@ -443,38 +506,47 @@ body{
     .about-container2{
         order: 2
     }
-    .about-title1,
-    .about-title2,
-    .about-title3{
+    .about-title{
         margin: 3rem 0 1rem 2rem;
         font-size: var(--fs-sm-lg);
     }
     .about-description1,
-    .about-description3{
+    .about-description2{
         font-size: var(--fs-body);
-        margin: 0 2rem;
+        margin: 0 2rem 3rem;
         text-align: justify;
     }
-
-    .about-description2-text1{
-        font-size: var(--fs-body);
-        margin: 0 2rem;
+    .HTML,
+    .CSS,
+    .JS,
+    .Figma,
+    .VS_Code{
+        height: 100px;
+        width: 120px;
     }
-    .about-description2-text2 li{
-        font-size: var(--fs-body);
-        margin: 0 2rem;
+    .HTML img,
+    .CSS img,
+    .JS img,
+    .Figma img,
+    .VS_Code img{
+        width: 30px;
+        height: 30px;
     }
-    .about-description2-text3{
-        font-size: var(--fs-body);
-        margin: 0 2rem;
-    }
-    .about-description3{
-        margin-bottom: 3rem;
+    .HTML figcaption,
+    .CSS figcaption,
+    .JS figcaption,
+    .Figma figcaption,
+    .VS_Code figcaption{
+        font-size: var(--fs-xxs);
     }
 
     /* contact */
     .contact-text{
         margin: 3rem 2rem;
+    }
+    .social-links-list{
+        padding: 2rem 0 3rem 0;
+        justify-content: center;
     }
 
     /* footer */
@@ -497,27 +569,38 @@ body{
         text-align: justify;
         justify-content: center;
     }
-    .about-title1,
-    .about-title2,
-    .about-title3{
+    .about-title{
         margin: 3rem 0 1rem 2rem;
         font-size: var(--fs-sm-lg);
     }
-    .about-description3{
-        margin-bottom: 3rem;
+    .st-container2{
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
     }
-
-    .about-description2-text1{
-        font-size: var(--fs-body);
-        margin: 0 2rem;
+    .HTML,
+    .CSS,
+    .JS,
+    .Figma,
+    .VS_Code{
+        height: 170px;
+        width: 140px;
     }
-    .about-description2-text2 li{
-        font-size: var(--fs-body);
-        margin: 0 2rem;
+    .HTML img,
+    .CSS img,
+    .JS img,
+    .Figma img,
+    .VS_Code img{
+        margin-bottom: 1rem;
+        width: 60px;
+        height: 60px;
     }
-    .about-description2-text3{
-        font-size: var(--fs-body);
-        margin: 0 2rem;
+    .HTML figcaption,
+    .CSS figcaption,
+    .JS figcaption,
+    .Figma figcaption,
+    .VS_Code figcaption{
+        font-size: var(--fs-small);
     }
 
     /* projects */
@@ -527,7 +610,7 @@ body{
         margin: 2rem 0 2rem;
     }
 
-    /* contact */
+    /* contact text */
     .contact-text{
         flex-direction: column;
         justify-content: center;
@@ -536,8 +619,30 @@ body{
     .contact-subheader{
         margin-top: 1rem;
     }
+    /* contact input form */
     .contact-placeholder{
-        margin-top: 0;
+        margin: 2rem 0 0 0;
+        order: 1;
+    }
+    /* Contact Information */
+    .contact-subheader2{
+        margin-top: -6rem;
+        text-align: center;
+    }
+    .social-links{
+        order: 3;
+    }
+    .social-links-list{
+        display: flex;
+        gap: 2rem;
+        margin-bottom: 3rem;
+    }
+    .social-links-list span{
+        display: none;
+    }
+    /* Message */
+    .success-message{
+        margin-bottom: 0;
     }
 
     /* footer */
@@ -628,4 +733,5 @@ body{
 hr{
     border: 0.5px solid black;
     width: 85%;
+    border-color: var(--accent);
 }
