@@ -10,7 +10,7 @@
     <header>
         <nav id="Home">
             <div class="navbar-container">
-                <h1 class="navbar-logo">Robby Arzy</h1>
+                <h1 class="navbar-logo">Robby</h1>
                 <ul class="navbar-navigation">
                     <li><a href="#Home">Home</a></li>
                     <li><a href="#About">About</a></li>
@@ -23,34 +23,27 @@
 
     <main>
         <section class="hero">
-            <figure class="hero-image">
-                <img src="image/Profile_Picture.jpeg" alt="Profile Picture Image"/>
-            </figure>
             <div class="hero-container">
                 <h1 class="hero-header">Hi, I’m Robby Arzy</h1>
                 <p class="hero-description">
                     I am an aspiring Software Engineer with a strong interest in building digital experiences that are both professional and approachable. I focus on writing clean, efficient code while creating solutions that feel intuitive and meaningful to users.
                 </p>
-                <div class="social-links">
-                    <ul id="About" class="social-links-list">
-                        <li><a href="https://linkedin.com/in/robbyarzy/"><img src="image/Linkedin_Logo.png" alt="LinkedIn"></a></li>
-                        <li><a href="mailto:robbyarzy@gmail.com"><img src="image/Gmail_Logo.png" alt="Gmail"></a></li>
-                        <li><a href="https://wa.me/6282232138510"><img src="image/whatsapp.png" alt="WhatsApp"></a></li>
-                        <li><a href="https://www.instagram.com/robbyarzy/"><img src="image/Instagram_Logo.png" alt="Instagram"></a></li>
-                        <li><a href="https://t.me/Robby100903"><img src="image/Telegram_Logo.png" alt="Telegram"></a></li>
-                        <li><a href="https://github.com/Revou-FSSE-Feb26/milestone-1-Arzy4"><img src="image/Github_Logo.png" alt="GitHub"></a></li>
-                    </ul>
-                </div>
             </div>
+            <figure class="hero-image">
+                <img src="image/Profile_Picture.jpeg" alt="Profile Picture Image"/>
+            </figure>
         </section>
         <!-- Home End -->
 
         <!-- About Me Start -->
-        <section class="about">
-            <h1 class="about-header">BIOGRAPHY</h1>
+        <section id="About" class="about">
+            <h1 class="about-header">About Me</h1>
             <div class="about-container1">
+                <figure class="about-image">
+                    <img src="image/Profile_Picture1.jpeg" alt="About Me Image"/>
+                </figure>
                 <div class="about-container2">
-                    <h2 class="about-title1">Background</h2>
+                    <h2 class="about-title">Background</h2>
                         <p class="about-description1">
                             I am a Future Software Engineering with a strong passion for programming and technology. Although my academic background is rooted in engineering, I have always been drawn to the logic, creativity, and problem-solving aspects of software development.
 
@@ -59,33 +52,59 @@
                             I truly appreciate any support, guidance, or opportunities to learn and collaborate. If you would like to connect, feel free to reach out through the contact section, I would be glad to hear from you.
                         </p>
 
-                        <h2 class="about-title2">Skill & Interest</h2>
-                        <p class="about-description2-text1">As a web development enthusiast, I have an interest in:
-                        </p>
-                        <ul class="about-description2-text2">
-                            <li>HTML and CSS for building clean, simple, and responsive web design</li>
-                            <li>Design simple yet elegant layout.</li>
-                            <li>Making UI design that is user-friendly and comfortable to use.</li>
-                        </ul>
-                        
-                        <p class="about-description2-text3">In Addition, I also interested in learning new technology and improving my problem-solving skill through web developing.</p>
-
-                        <h2 class="about-title3">Goals & Vision</h2>
-                        <p id="Projects" class="about-description3">As a Software Developer, my goal is to become a developer that not only building functional website, but also gives an interesting design and amazing experience for the user.
+                        <h2 class="about-title">Goals & Vision</h2>
+                        <p class="about-description2">As a Software Developer, my goal is to become a developer that not only building functional website, but also gives an interesting design and amazing experience for the user.
                         
                         I want to improve continuously, build beneficial projects, and one day can contribute at a professional team in technological field.
                         </p>
                 </div>
-                <figure class="about-image">
-                    <img src="image/Profile_Picture1.jpeg" alt="Biography Image"/>
-                </figure>
             </div>
+
+            <hr>
+
+            <section id="skill_tools" class="skill_tools">
+                <div class="st-container1">
+                    <h1 class="st-header">SKILLS & TOOLS</h1>
+                    <div class="st-container2">
+                        <div class="HTML">
+                            <figure>
+                                <img src="image/HTML_Logo.png"/>
+                                <figcaption>HTML</figcaption>
+                            </figure>
+                        </div>
+                        <div class="CSS">
+                            <figure>
+                                <img src="image/CSS_Logo.png"/>
+                                <figcaption>CSS</figcaption>
+                            </figure>
+                        </div>
+                        <div class="JS">
+                            <figure>
+                                <img src="image/Javascript_Logo.png"/>
+                                <figcaption>Javascript</figcaption>
+                            </figure>
+                        </div>
+                        <div class="Figma">
+                            <figure>
+                                <img src="image/Figma_Logo.png"/>
+                                <figcaption>Figma</figcaption>
+                            </figure>
+                        </div>
+                        <div class="VS_Code">
+                            <figure>
+                                <img src="image/VSCODE_Logo.png"/>
+                                <figcaption>VS Code</figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </section>
         <!-- About Me End -->
 
         <!-- Projects Start -->
-        <h1 class="projects-header">PROJECTS</h1>
-        <section class="projects">
+        <section id="Projects" class="projects">
+            <h1 class="projects-header">PROJECTS</h1>
             <div class="projects-container">
                 <article>
                     <figure>
@@ -120,7 +139,7 @@
                 <article>
                     <figure>
                         <img src="image/background6.jpg" alt="Project 6 Image"/>
-                        <figcaption id="Contact">This is Project 6</figcaption>
+                        <figcaption>This is Project 6</figcaption>
                     </figure>
                 </article>
             </div>
@@ -128,14 +147,11 @@
         <!-- Projects End -->
 
         <!-- Contact Start -->
-        <section class="contact">
+        <section id="Contact" class="contact">
             <h1 class="contact-header">LET'S GET IN TOUCH</h1>
+            <h2 class="contact-subheader1">I’d be happy to <span class="text-highlight">connect and collaborate</span> with you!</h2>
+            
             <div class="contact-text">
-                <div class="contact-container">
-                    <h2 class="contact-subheader">I’d be happy to connect and collaborate with you!</h2>
-                    <p class="contact-description">Feel free to reach out anytime, I’m always open to discussing projects, ideas, or potential collaborations.</p>
-                </div>
-
                 <div class="contact-placeholder">
                     <form id="form" class="cp-form" action="#" method="post">
                         <div class="cp-container">
@@ -158,16 +174,28 @@
                                 <textarea id="message" name="message" placeholder="Enter Your Message" rows="5" required></textarea>
                             </div>
                             <div class="cp-btn">
-                                <button type="submit">Send Message</button>
+                                <button type="submit">Send Message</button>                         
                             </div>
+                            <div class="sc-container">
+                                <p id="success-message" class="success-message">sent!</p>
+                            </div>  
                         </div>
                     </form>
                 </div>
-            </div>
-            <div>
-                <p id="success-message" class="success-message">
-                    Message sent successfully!
-                </p>
+
+                <div class="social-links">
+                    <h2 class="contact-subheader2">
+                        Connect with me
+                    </h2>
+                    <ul class="social-links-list">
+                        <li><a href="https://linkedin.com/in/robbyarzy/"><img src="image/Linkedin_Logo.png" alt="LinkedIn"><span>linkedin.com/in/robbyarzy</span></a></li>
+                        <li><a href="mailto:robbyarzy@gmail.com"><img src="image/Gmail_Logo.png" alt="Gmail"><span>robbyarzy@gmail.com</span></a></li>
+                        <li><a href="https://wa.me/6282232138510"><img src="image/whatsapp.png" alt="WhatsApp"><span>(+62)822-3213-8510</span></a></li>
+                        <li><a href="https://www.instagram.com/robbyarzy/"><img src="image/Instagram_Logo.png" alt="Instagram"><span>@rbby_rzy</span></a></li>
+                        <li><a href="https://t.me/Robby100903"><img src="image/Telegram_Logo.png" alt="Telegram"><span>@Robby100903</span></a></li>
+                        <li><a href="https://github.com/Revou-FSSE-Feb26/milestone-1-Arzy4"><img src="image/Github_Logo.png" alt="GitHub"><span>View GitHub Here</span></a></li>
+                    </ul>
+                </div>
             </div>
         </section>
         <!-- Contact End -->
