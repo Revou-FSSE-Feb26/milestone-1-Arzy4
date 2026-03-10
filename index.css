@@ -179,12 +179,12 @@ body{
     margin: 2rem 0 0 0;
 }
 .about-title{
-    margin: 3rem 0 0 0;
+    margin: 3rem 0 0 2rem;
     font-size: var(--fs-sm-lg);
 }
 .about-description1,
 .about-description2{
-    margin: 1rem 2rem 4rem 0;
+    margin: 1rem 2rem 4rem 2rem;
     max-width: 700px;
     text-align: justify;
 }
@@ -194,40 +194,26 @@ body{
     padding: 2rem;
 }
 .st-container2{
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    text-align: center;
+    font-size: var(--fs-body);
+    padding-bottom: 1rem;
 }
-.HTML,
-.CSS,
-.JS,
-.Figma,
-.VS_Code{
+.item{
     display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
-    height: 170px;
-    width: 140px;
-    margin-bottom: 5rem;
-    border-radius: 20px;
-    background-color: var(--accent);
+    padding-bottom: 3rem;
 }
-.HTML img,
-.CSS img,
-.JS img,
-.Figma img,
-.VS_Code img{
+.item img{
     margin-bottom: 1rem;
     width: 60px;
     height: 60px;
 }
-.HTML figcaption,
-.CSS figcaption,
-.JS figcaption,
-.Figma figcaption,
-.VS_Code figcaption{
-    font-size: var(--fs-small);
+.item figcaption{
+    font-size: var(--fs-body);
 }
 
 /* Projects style */
@@ -452,20 +438,34 @@ body{
 }
 
 /* Mobile Responsive settings */
-@media(max-width: 1177px){
+@media(max-width: 1200px){
     /* about */
-    .about-container2{
-        order: 2;
+    .about-container1{
+        flex-direction: column;
+        align-items: center;
     }
-    .about-image{
-        order: 1;
+    .HTML img,
+    .CSS img,
+    .JS img,
+    .Figma img,
+    .VS_Code img{
+        width: 60px;
+        height: 60px;
+    }
+    .HTML figcaption,
+    .CSS figcaption,
+    .JS figcaption,
+    .Figma figcaption,
+    .VS_Code figcaption{
+        font-size: var(--fs-body);
     }
 }
-@media(max-width: 900px){
+@media(max-width: 1024px){
     /* navbar */
     .navbar-container{
         flex-direction: column;
         justify-content: center;
+        padding-top: 1.5rem;
     }
     .navbar-logo{
         margin-left: 0;
@@ -501,48 +501,18 @@ body{
         margin: 0 2rem;
     }
 
-    /* about */
-    .about-image{
-        order: 1;
+    /* projects */
+    .projects-wrapper{
+        overflow: hidden;
+        width: 100%;
     }
-    .about-image img{
-        width: 250px;
+    .projects-container{
+        display: flex;
+        gap: 0;
+        transition: transform 0.5s ease;
     }
-    .about-container2{
-        order: 2
-    }
-    .about-title{
-        margin: 3rem 0 1rem 2rem;
-        font-size: var(--fs-sm-lg);
-    }
-    .about-description1,
-    .about-description2{
-        font-size: var(--fs-body);
-        margin: 0 2rem 3rem;
-        text-align: justify;
-    }
-    .HTML,
-    .CSS,
-    .JS,
-    .Figma,
-    .VS_Code{
-        height: 100px;
-        width: 120px;
-    }
-    .HTML img,
-    .CSS img,
-    .JS img,
-    .Figma img,
-    .VS_Code img{
-        width: 30px;
-        height: 30px;
-    }
-    .HTML figcaption,
-    .CSS figcaption,
-    .JS figcaption,
-    .Figma figcaption,
-    .VS_Code figcaption{
-        font-size: var(--fs-xxs);
+    .projects-container article{
+        flex: 0 0 100%;
     }
 
     /* contact */
@@ -566,7 +536,7 @@ body{
         padding: 2rem 0 0 4%;
     }
 }
-@media(max-width: 700px){
+@media(max-width: 768px){
     /* about */
     .about-container{
         flex-direction: column;
@@ -577,11 +547,6 @@ body{
     .about-title{
         margin: 3rem 0 1rem 2rem;
         font-size: var(--fs-sm-lg);
-    }
-    .st-container2{
-        flex-direction: column;
-        align-items: center;
-        gap: 0;
     }
     .HTML,
     .CSS,
@@ -607,12 +572,18 @@ body{
     .VS_Code figcaption{
         font-size: var(--fs-small);
     }
-
-    /* projects */
-    .projects-container{
+    /* skill & tools */
+    .st-wrapper{
+        overflow: hidden;
+        width: 100%;
+    }
+    .st-container2{
         display: flex;
-        flex-direction: column;
-        margin: 2rem 0 2rem;
+        gap: 0;
+        transition: transform 0.5s ease;
+    }
+    .item{
+        flex: 0 0 100%;
     }
 
     /* contact text */
@@ -680,6 +651,7 @@ body{
 
     /* hero style */
     .hero-image img{
+        margin-top: 11rem;
         width: 200px;
     }
     .hero-header{
