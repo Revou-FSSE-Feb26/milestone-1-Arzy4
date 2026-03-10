@@ -61,7 +61,7 @@ stContainer.addEventListener("touchend", (e) => {
 // project card slider
 const pContainer = document.querySelector(".projects-container");
 const pSlides = document.querySelectorAll(".projects-container article");
-const pMobile = window.matchMedia("(max-width:900px)");
+const pMobile = window.matchMedia("(max-width:1024px)");
 
 let pIndex = 0;
 let pStartX = 0;
@@ -73,7 +73,7 @@ function showSlide(i){
 }
 
 function nextSlide(){
-    console.log("pAutoplay running");
+    console.log("Autoplay running");
     pIndex++;
     if(pIndex >= pSlides.length){
         pIndex = 0;
