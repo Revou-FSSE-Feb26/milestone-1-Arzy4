@@ -24,23 +24,18 @@
 }
 .navbar-logo,
 .navbar-navigation,
-.hero-header,
+.hero-heading,
 .hero-description,
-.about-header
-.about-title1,
-.about-title2,
-.about-title3,
+.about-heading,
+.about-heading1,
 .about-description1,
-.about-description2-text1,
-.about-description2-text2,
-.about-description2-text3,
-.about-description3
-.projects-header,
+.about-description2,
+.projects-heading,
 .projects-container figcaption,
-.contact-header,
-.contact-subheader,
-.contact-description,
-.footer-header,
+.contact-heading,
+.contact-heading1,
+.contact-heading2
+.footer-heading,
 .footer-description,
 .footer-container2 a,
 .footer-container3 a,
@@ -49,15 +44,19 @@
 .cp-input3 label {
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
 }
-.about-header,
-.projects-header,
-.contact-header {
+.about-heading,
+.projects-heading,
+.projects-heading1,
+.contact-heading,
+.contact-heading1 {
     font-size: var(--fs-xl);
     text-align: center;
 }
 .hero-image img,
 .about-image img,
-.projects-container img {
+.projects-container img,
+.cp-container input,
+.cp-container textarea {
     border-radius: 10px;
     box-shadow: var(--shadow-medium);
 }
@@ -66,11 +65,12 @@
     font-size: var(--fs-body);
     word-spacing: 5px;
 }
-.hero-header,
+.hero-heading,
 .hero-description,
-.projects-header,
+.projects-heading,
+.projects-heading1,
 .projects-container figcaption,
-.footer-header,
+.footer-heading,
 .footer-description,
 .footer-container2 a,
 .footer-container3 a{
@@ -147,16 +147,15 @@ body{
     border-radius: 200px;
     margin: 15rem 0 7rem;
 }
-.hero-header{
-    font-size: var(--fs-lg);
+.hero-heading{
     max-width: 500px;
-    margin: 10rem 0 1rem 3rem;
+    margin-top: 10rem;
+    font-size: var(--fs-xl);
 }
 .hero-description{
     font-size: var(--fs-sm-lg);
     text-align: justify;
     max-width: 500px;
-    margin: 0 0 3rem 3rem;
 }
 
 /* About Me */
@@ -165,7 +164,7 @@ body{
     background: linear-gradient(180deg, var(--accent), var(--dark));
     color: var(--light);
 }
-.about-header{
+.about-heading{
     padding: 4rem 0 0 0;
 }
 .about-container1{
@@ -178,7 +177,7 @@ body{
     width: 300px;
     margin: 2rem 0 0 0;
 }
-.about-title{
+.about-heading1{
     margin: 3rem 0 0 2rem;
     font-size: var(--fs-sm-lg);
 }
@@ -189,9 +188,10 @@ body{
     text-align: justify;
 }
 /* About SkillS and TOOLS */
-.st-header{
+.st-heading{
     text-align: center;
     padding: 2rem;
+    font-size: var(--fs-md);
 }
 .st-container2{
     display: grid;
@@ -217,8 +217,14 @@ body{
 }
 
 /* Projects style */
-.projects-header{
+.projects-heading{
+    font-weight: bold;
+    font-size: var(--fs-xl);
     margin: 4rem 0 4rem 0;
+}
+.projects-heading1{
+    font-size: var(--fs-md);
+    margin: 3rem 0 6rem;
 }
 .projects-container{
     display: grid;
@@ -235,11 +241,17 @@ body{
     font-size: var(--fs-sm-lg);
     margin-top: 1rem;
 }
+.projects-container figcaption:hover{
+    color: var(--hover-bg);
+}
 .projects-container article{
     transition: transform 0.3s ease;
 }
 .projects-container article:hover{
     transform: translateY(-20px);
+}
+.text-highlight1{
+    color: var(--hover-bg);
 }
 
 /* Contact style */
@@ -249,8 +261,12 @@ body{
     color: var(--light);
     padding: 0.5rem 0 0 0;
 }
-.contact-header{
+.contact-heading{
     padding: 5rem 0 0 0;
+}
+.contact-heading1{
+    font-size: var(--fs-md);
+    margin: 3rem 0;
 }
 .contact-text{
     display: flex;
@@ -259,17 +275,12 @@ body{
     max-width: 1000px;
     margin: 1rem auto;
 }
-.contact-subheader1{
-    font-size: var(--fs-md);
-    text-align: center;
-    margin: 3rem 3rem 3rem 3rem;
-}
 .contact-description{
     text-align: justify;
     font-size: var(--fs-sm);
     margin: 0 0 3rem 0;
 }
-.text-highlight{
+.text-highlight2{
     color: var(--hover-text1);
 }
 /* Contact Form */
@@ -333,7 +344,8 @@ body{
     transform: translateY(-10px);
 }
 /* Contact Information */
-.contact-subheader2{
+.contact-heading2{
+    text-align: center;
     margin: 3rem 0 0 0;
     font-size: var(--fs-md);
 }
@@ -392,7 +404,7 @@ body{
     padding: 2rem 1% 0 10%;
     max-width: 100%;
 }
-.footer-header{
+.footer-heading{
     font-size: var(--fs-md);
     font-weight: bold;
 }
@@ -492,13 +504,19 @@ body{
         order: 1;
         margin-bottom: 5rem;
     }
-    .hero-header{
+    .hero-heading{
         text-align: center;
         margin: -3rem 2rem 1.5rem;
     }
     .hero-description{
         text-align: justify;
         margin: 0 2rem;
+    }
+
+    /* about */
+    .about-description1,
+    .about-description2{
+        font-size: var(--fs-sm);
     }
 
     /* projects */
@@ -592,7 +610,7 @@ body{
         justify-content: center;
         align-items: center;
     }
-    .contact-subheader{
+    .contact-heading{
         margin-top: 1rem;
     }
     /* contact input form */
@@ -601,7 +619,7 @@ body{
         order: 1;
     }
     /* Contact Information */
-    .contact-subheader2{
+    .contact-heading2{
         margin-top: -6rem;
         text-align: center;
     }
@@ -654,43 +672,52 @@ body{
         margin-top: 11rem;
         width: 200px;
     }
-    .hero-header{
+    .hero-heading{
         font-size: var(--fs-md);
     }
     .hero-description{
-        font-size: var(--fs-sm);
-        max-width: 350px;
+        font-size: var(--fs-small);
+        max-width: 400px;
     }
 
     /* about style */
-    .about-header{
-        font-size: var(--fs-md-lg);
+    .about-heading{
+        font-size: var(--fs-md);
     }
     .about-image img{
         width: 150px;
     }
-    .about-title1,
-    .about-title2,
-    .about-title3{
-        font-size: var(--fs-sm);
+    .about-heading1{
+        font-size: var(--fs-body);
     }
     .about-description1,
-    .about-description2-text1,
-    .about-description2-text2 li,
-    .about-description2-text3,
-    .about-description3{
-        font-size: var(--fs-small);
+    .about-description2{
+        font-size: var(--fs-xs);
     }
     .about-description3{
         margin-bottom: 3rem;
     }
 
     /* project style */
-    .projects-header{
-        font-size: var(--fs-md-lg);
+    .projects-heading{
+        font-size: var(--fs-md);
+        margin-bottom: 2rem;
+    }
+    .projects-heading1{
+        font-size: var(--fs-body);
+        margin: 2rem
     }
     .projects-container figcaption{
-        font-size: var(--fs-sm);
+        font-size: var(--fs-small);
+    }
+
+    /* contact style */
+    .contact-heading{
+        font-size: var(--fs-md);
+    }
+    .contact-heading1,
+    .contact-heading2{
+        font-size: var(--fs-body);
     }
 
     /* footer style */
