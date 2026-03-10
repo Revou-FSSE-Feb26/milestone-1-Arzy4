@@ -198,22 +198,18 @@ body{
     grid-template-columns: repeat(5, 1fr);
     text-align: center;
     font-size: var(--fs-body);
-    padding-bottom: 1rem;
+    padding: 0; 
+    gap: 2rem;
+    list-style-type: none;
 }
-.item{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 3rem;
-}
-.item img{
+.st-container2 img{
     margin-bottom: 1rem;
     width: 60px;
     height: 60px;
 }
-.item figcaption{
+.st-container2 figcaption{
     font-size: var(--fs-body);
+    margin-bottom: 5rem;
 }
 
 /* Projects style */
@@ -350,12 +346,11 @@ body{
     font-size: var(--fs-md);
 }
 .social-links-list{
-    justify-content: center;
-    list-style: none;
+    list-style-type: none;
     padding: 1rem 0 0 0;
 }
 .social-links-list li{
-    margin-bottom: 0.5rem ;
+    margin-bottom: 0.5rem;
 }
 .social-links-list a{
     display: flex;
@@ -600,7 +595,7 @@ body{
         gap: 0;
         transition: transform 0.5s ease;
     }
-    .item{
+    .st-container2 li{
         flex: 0 0 100%;
     }
 
