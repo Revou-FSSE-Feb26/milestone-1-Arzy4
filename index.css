@@ -720,8 +720,8 @@ body{
         font-size: var(--fs-body);
     }
     .footer-container2 a,
-    .footer-address a{
-        font-size: var(--fs-sm);
+    .footer-container3 a{
+        font-size: var(--fs-body);
     }
     .update-info{
         font-size: var(--fs-xxs);
