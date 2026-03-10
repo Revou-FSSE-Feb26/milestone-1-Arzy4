@@ -1,6 +1,6 @@
 // skill & tools slider
 const stContainer = document.querySelector(".st-container2");
-const stSlides = document.querySelectorAll(".st-container2 > div");
+const stSlides = document.querySelectorAll(".st-container2 li");
 const stMobile = window.matchMedia("(max-width:768px)");
 
 let stIndex = 0;
