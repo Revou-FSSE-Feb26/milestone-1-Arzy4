@@ -24,20 +24,15 @@ This website is designed to demonstrate my abilities as a Software Engineer and 
 5. Clean, Responsive Design: **Built with HTML and CSS** to provide a visually appealing and accessible layout across devices.
 6. CSS Styling and Layout Techniques: The website uses **modern CSS techniques** such as Flexbox for layout structuring, CSS variables for consistent design values, hover effects and transitions for interactive elements, box shadows and gradients for visual styling, and responsive media queries to ensure the website adapts smoothly across different screen sizes.
 
-### Future Improvements
-
-This portfolio will continue to evolve with additional features such as:
-
-- Improved mobile responsiveness
-- JavaScript interactivity
-- More featured projects
-- Performance optimizations
-
 ### New Update
+
+This portfolio has new update with additional features such as:
+
 - New color theme
 - Engaging background color
 - New Portfolio layout
-- Add "SKILLS & TOOLS" in About section 
+- Add "SKILLS & TOOLS" in About section
+- Add Carousel for Skills & Tools icon and Project cards
 
 ---
 
