@@ -32,7 +32,7 @@ This portfolio has new update with additional features such as:
 - Engaging background color
 - New Portfolio layout
 - Add "SKILLS & TOOLS" in About section
-- Add Carousel for Skills & Tools icon and Project cards
+- Add Carousel for Skills & Tools icon and Project cards (mobile mode)
 
 ---
 
