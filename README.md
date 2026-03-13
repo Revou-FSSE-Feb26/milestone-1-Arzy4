@@ -28,26 +28,26 @@ This website is designed to demonstrate my abilities as a Software Engineer and 
 
 This portfolio has new update with additional features such as:
 
-- New color theme
-- Engaging background color
-- New Portfolio layout
-- Add "SKILLS & TOOLS" in About section
-- Add Carousel for Skills & Tools icon and Project cards (mobile mode)
+- Introduced a **new color theme** to improve visual consistency across the website. 
+- **Enhanced the background** with a more engaging gradient design to create a more appealing user interface.
+- **Redesigned the portfolio layout** for better structure and improved user experience.
+- Added **“Skills & Tools” section** to the About page to highlight technical competencies and technologies used.
+- Added **responsive carousel** for Skills & Tools icons and Project cards (≤1200px screen width).
 
 ---
 
 ## Tools and Technologies
 
-The development of this website involved the use of several tools and technologies to ensure a clean structure, responsive design, and smooth user experience. Each element was carefully built and styled to create a professional yet welcoming interface, reflecting both technical learning and creative exploration throughout the process.
+The development of this website involved the use of several tools and technologies to **ensure a clean structure, responsive design, and smooth user experience**. Each element was carefully built and styled to create a professional yet welcoming interface, reflecting both technical learning and creative exploration throughout the process.
 
 1. **Tools**
-    - Visual Studio Code (VS Code): Use as Code Editor for writing and editing the program such as HTML and CSS code.
-    - Opera GX: Web Browser use for previewing and testing website during development.
-    - GitHub: A platform used to store, manage, and share the project repository online.
+    - Visual Studio Code (VS Code): Use as Code Editor for **writing and editing the program** such as HTML and CSS code.
+    - Opera GX: Web Browser use for **previewing and testing website** during development.
+    - GitHub: A platform used to **store, manage, and share** the project repository online.
 
 2. **Technologies**
-    - HTML: Markup language used to structure the content of the website.
-    - CSS: Style sheet language used to design and layout the website, making the website more appealing.
+    - HTML: Markup language used to **structure the content** of the website.
+    - CSS: Style sheet language used to **design and layout the website**, making the website more appealing.
 
 ---
 

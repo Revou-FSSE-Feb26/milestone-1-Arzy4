@@ -107,8 +107,10 @@
 
         <!-- Projects Start -->
         <section id="Projects" class="projects">
-            <h2 class="projects-heading">PROJECTS</h2>
-            <h3 class="projects-heading1">This is my <span class="text-highlight1">Latest Project</span></h3>
+            <div class="projects-heading">
+                <h2>PROJECTS</h2>
+                <h3>This is my <span class="highlight1">Latest Project</span></h3>
+            </div>
             <div class="projects-wrapper">
                 <div class="projects-container">
                     <article>
@@ -154,9 +156,10 @@
 
         <!-- Contact Start -->
         <section id="Contact" class="contact">
-            <h2 class="contact-heading">LET'S GET IN TOUCH</h2>
-            <h3 class="contact-heading1">I’d be happy to <span class="text-highlight2">connect and collaborate</span> with you!</h3>
-            
+            <div class="contact-heading">
+                <h2>LET'S GET IN TOUCH</h2>
+                <h3>I’d be happy to <span class="highlight2">connect and collaborate</span> with you!</h3>
+            </div>            
             <div class="contact-text">
                 <div class="contact-placeholder">
                     <form id="form" class="cp-form" action="#" method="post">
@@ -180,20 +183,21 @@
                                 <textarea id="message" name="message" placeholder="Enter Your Message" rows="5" required></textarea>
                             </div>
                             <div class="cp-btn">
-                                <button type="submit" aria-label="send message">Send Message</button>                         
+                                <button type="submit" aria-label="send message">Send Message</button>
+                                <div class="sc-container">
+                                <p id="success-message" class="success-message">Message Sent!</p>
+                            </div>                         
                             </div>
-                            <div class="sc-container">
-                                <p id="success-message" class="success-message">sent!</p>
-                            </div>  
                         </div>
                     </form>
                 </div>
 
                 <section class="social-links">
-                    <h3 class="contact-heading2">
+                    <h4 class="social-links-heading">
                         Connect with me
-                    </h3>
-                        <ul class="social-links-list">
+                    </h4>
+                    <div class="social-links-list">
+                        <ul>
                             <li>
                                 <a href="https://linkedin.com/in/robbyarzy/">
                                     <img src="image/Linkedin_Logo.png" alt="LinkedIn">
@@ -231,6 +235,7 @@
                                 </a>
                             </li>
                         </ul>
+                    </div>
                 </section>
             </div>
         </section>
@@ -239,7 +244,7 @@
 
     <!-- Footer Start -->
     <footer>
-        <div class="footer">
+        <div class="footer-wrapper">
             <div class="footer-container1">
                 <h2 class="footer-heading">Robby Arzy</h2>
                 <p class="footer-description">A future Software Engineer dedicated to building professional and elegant web design.</p>
@@ -286,7 +291,7 @@
         </div>
         <div id="update" class="update-container">
              <div class="update-info">
-                <p>Latest Update: <time datetime="2026-03-10" >10 March 2026</time></p>
+                <p>Latest Update: <time datetime="2026-03-13" >13 March 2026</time></p>
                 <p>&copy; 2026 Robby Arzy. All rights reserved</p>
             </div>
         </div>
