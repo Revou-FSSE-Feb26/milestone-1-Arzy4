@@ -33,6 +33,7 @@ This portfolio has new update with additional features such as:
 - **Redesigned the portfolio layout** for better structure and improved user experience.
 - Added **“Skills & Tools” section** to the About page to highlight technical competencies and technologies used.
 - Added **responsive carousel** for Skills & Tools icons and Project cards (≤1200px screen width).
+- Added a **call-to-action button** in the Home section to make it easier for visitors to navigate to the Contact section.
 
 ---
 
