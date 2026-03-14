@@ -29,6 +29,13 @@
                 <p class="hero-description">
                     I am an aspiring Software Engineer with a strong interest in building digital experiences that are both professional and approachable. I focus on writing clean, efficient code while creating solutions that feel intuitive and meaningful to users.
                 </p>
+                <div class="hero-btn">
+                    <button type="redirect" aria-label="Contact Me">
+                        <a href="#Contact">
+                            Let's Connect
+                        </a>
+                    </button>
+                </div>
             </div>
             <figure class="hero-image">
                 <img src="image/Profile_Picture.jpeg" alt="Robby Arzy Profile Picture"/>
@@ -165,11 +172,11 @@
                     <form id="form" class="cp-form" action="#" method="post">
                         <div class="cp-container">
                             <div class="cp-input1">
-                                <div class="text1">
+                                <div class="text">
                                     <label for="firstName">First Name</label>
                                     <input type="text" id="firstName" name="firstName" placeholder="Enter Your First Name" required>
                                 </div>
-                                <div class="text2">
+                                <div class="text">
                                     <label for="lastName">Last Name</label>
                                     <input type="text" id="lastName" name="lastName" placeholder="Enter Your Last Name" required>
                                 </div>
@@ -183,10 +190,7 @@
                                 <textarea id="message" name="message" placeholder="Enter Your Message" rows="5" required></textarea>
                             </div>
                             <div class="cp-btn">
-                                <button type="submit" aria-label="send message">Send Message</button>
-                                <div class="sc-container">
-                                <p id="success-message" class="success-message">Message Sent!</p>
-                            </div>                         
+                                <button type="submit" aria-label="send message">Send Message</button>                       
                             </div>
                         </div>
                     </form>
@@ -238,6 +242,9 @@
                     </div>
                 </section>
             </div>
+            <div class="sc-container">
+                <p id="success-message" class="success-message">Message Sent!</p>
+            </div>  
         </section>
         <!-- Contact End -->
     </main>
