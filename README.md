@@ -7,9 +7,9 @@
 
 ---
 
-## Welcome to My Website Portfolio
+## Overview
 
-This website serves as a **personal portfolio** to present my journey, technical skills, and creative projects. It is thoughtfully organized into distinct sections, including an introductory Home section, About section detailing my background and aspirations, Projects section highlighting my work, and Contact section offering multiple ways to connect. The site is built with modern web standards for a clean, responsive, and user-friendly experience across devices. This portfolio provides a comprehensive view of who I am, what I can do, and how to reach me.
+This website serves as a **personal portfolio** project representing my journey, technical skills, and creative projects. It is thoughtfully organized into distinct sections, including an introductory Home section, About section detailing my background and aspirations, Projects section highlighting my work, and Contact section offering multiple ways to connect. The site is built with modern web standards for a clean, responsive, and user-friendly experience across devices. This portfolio provides a comprehensive view of who I am, what I can do, and how to reach me.
 
 ---
 
@@ -26,7 +26,7 @@ This website is designed to demonstrate my abilities as a Software Engineer and 
 
 ### New Update
 
-This portfolio has new update with additional features such as:
+This portfolio includes new updates with additional features such as:
 
 - Introduced a **new color theme** to improve visual consistency across the website. 
 - **Enhanced the background** with a more engaging gradient design to create a more appealing user interface.
@@ -47,8 +47,30 @@ The development of this website involved the use of several tools and technologi
     - GitHub: A platform used to **store, manage, and share** the project repository online.
 
 2. **Technologies**
-    - HTML: Markup language used to **structure the content** of the website.
-    - CSS: Style sheet language used to **design and layout the website**, making the website more appealing.
+    - HTML for website structure, focusing on semantic HTML  
+    - CSS for website style, using Flexbox, Grid, Media Queries, Transitions
+    - JavaScript for interactivity
+
+### Responsive Design Implementation
+
+This website is designed to be fully responsive across various screen sizes using CSS media queries.
+
+Key implementations include:
+- Use of media queries to adjust layout for mobile, tablet, and desktop screens
+- Flexible layouts using Flexbox and Grid to maintain structure
+- Responsive image scaling using max-width and percentage-based sizing
+- Adaptive spacing and alignment to ensure readability on smaller devices
+- Carousel feature for Skills & Projects optimized for screens ≤1200px
+
+---
+
+## CSS Implementation Highlights
+
+- Responsive layouts using Flexbox and Grid
+- Use of media queries to handle multiple breakpoints
+- Consistent spacing using reusable CSS values
+- Interactive elements using hover effects and transitions
+- Background gradients and shadows for visual depth
 
 ---
 
@@ -56,7 +78,7 @@ The development of this website involved the use of several tools and technologi
 
 ### Deployment
 
-This Website is deployed using the Github Pages by following this steps:
+This website is deployed using GitHub Pages by following these steps:
 
 1. Navigate to your repository on GitHub
 2. Open "Settings"
@@ -69,7 +91,7 @@ After a few minutes, GitHub Pages will automatically build and publish the websi
 
 ### Live Website
 
-My Personal Portfolio Website is now live and can be access through the link below:
+My Personal Portfolio Website is now live and can be accessed through the link below:
 
 `https://revou-fsse-feb26.github.io/milestone-1-Arzy4/`
 
@@ -79,3 +101,36 @@ Once opened, users can navigate through the main sections of the website:
 - **About** – Information about my background and journey
 - **Projects** – A showcase of projects I have worked on
 - **Contact** – A form and links to reach me through various platforms
+
+--- 
+
+## Website Screenshot
+
+### Desktop View
+
+#### Home Section
+![Home Screenshot](./image/Portfolio_Screenshot.png)
+
+#### Project Section
+![Project Screenshot](./image/Project_SS_Desktop.png)
+
+#### About Section
+![About Screenshot](./image/About_SS_Desktop.png)
+
+#### Contact Section
+![Contact Screenshot](./image/Contact_SS_Desktop.png)
+
+
+### Mobile View
+
+#### Home Section
+![Home Screenshot](./image/Portfolio_SS_Mobile.png)
+
+#### Project Section
+![Project Screenshot](./image/Project_SS_Mobile.png)
+
+#### About Section
+![About Screenshot](./image/About_SS_Mobile.png)
+
+#### Contact Section
+![Contact Screenshot](./image/Contact_SS_Mobile.png)
