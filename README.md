@@ -63,7 +63,7 @@ This Website is deployed using the Github Pages by following this steps:
 3. Go to "Pages" section
 4. Under "Source", select "Deploy from branch"
 5. Choose main branch and root directory
-6. click save
+6. Click save
 
 After a few minutes, GitHub Pages will automatically build and publish the website. A live URL will be generated and displayed at the top of the Pages settings.
 
