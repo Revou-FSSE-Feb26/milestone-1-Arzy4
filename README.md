@@ -24,6 +24,17 @@ This website is designed to demonstrate my abilities as a Software Engineer and 
 5. Clean, Responsive Design: **Built with HTML and CSS** to provide a visually appealing and accessible layout across devices.
 6. CSS Styling and Layout Techniques: The website uses **modern CSS techniques** such as Flexbox for layout structuring, CSS variables for consistent design values, hover effects and transitions for interactive elements, box shadows and gradients for visual styling, and responsive media queries to ensure the website adapts smoothly across different screen sizes.
 
+### Responsive Design Implementation
+
+This website is designed to be fully responsive across various screen sizes using CSS media queries.
+
+Key implementations include:
+- Use of media queries to adjust layout for mobile, tablet, and desktop screens
+- Flexible layouts using Flexbox and Grid to maintain structure
+- Responsive image scaling using max-width and percentage-based sizing
+- Adaptive spacing and alignment to ensure readability on smaller devices
+- Carousel feature for Skills & Projects optimized for screens ≤1200px
+
 ### New Update
 
 This portfolio includes new updates with additional features such as:
@@ -50,17 +61,6 @@ The development of this website involved the use of several tools and technologi
     - HTML for website structure, focusing on semantic HTML  
     - CSS for website style, using Flexbox, Grid, Media Queries, Transitions
     - JavaScript for interactivity
-
-### Responsive Design Implementation
-
-This website is designed to be fully responsive across various screen sizes using CSS media queries.
-
-Key implementations include:
-- Use of media queries to adjust layout for mobile, tablet, and desktop screens
-- Flexible layouts using Flexbox and Grid to maintain structure
-- Responsive image scaling using max-width and percentage-based sizing
-- Adaptive spacing and alignment to ensure readability on smaller devices
-- Carousel feature for Skills & Projects optimized for screens ≤1200px
 
 ---
 
