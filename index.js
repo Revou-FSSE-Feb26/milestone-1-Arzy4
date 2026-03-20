@@ -145,3 +145,20 @@ form.addEventListener("submit", function(e){
 
     form.reset();
 });
+
+// Navbar Fixed Top Transition
+const navbar = document.getElementById("navbar-container");
+const links = document.getElementById("navbar-navigation")
+const wrapper = document.getElementById("navbar-wrapper");
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 400) {
+    wrapper.style.height = navbar.offsetHeight + "px";
+
+    navbar.classList.add("animation");
+    links.classList.add("animation");
+  } else {
+    navbar.classList.remove("animation");
+    links.classList.add("animation");
+  }
+});
