@@ -240,7 +240,7 @@ hr{
     border-radius: 10px;
 }
 .projects-wrapper h3{
-    padding: 4rem 5% 6rem;
+    padding: 6rem 5%;
 }
 .projects-container{
     display: grid;
@@ -544,11 +544,6 @@ footer{
         width: 100%;
     }
 
-    /* hero */
-    .hero {
-        padding: 10rem 1rem 12rem 1rem;
-    }
-
     /* projects */
     .projects-wrapper h3{
         text-align: center;
@@ -606,19 +601,20 @@ footer{
     .about-heading1,
     .st-heading,
     .projects-heading h3,
+    .projects-wrapper h3,
     .contact-heading h3{
-        font-size: var(--fs-fc);
+        font-size: var(--fs-fc-desc);
     }
     .navbar-navigation a,
+    .st-container2 figcaption,
+    .latest-projects figcaption,
+    .projects-container figcaption,
+    .social-links-list a,
     .social-links-heading,
     .footer-description,
     .footer-container2 a,
-    .footer-container3 a{
-        font-size: var(--fs-desc);
-    }
-    .st-container2 figcaption,
-    .projects-container figcaption,
-    .social-links-list a{
+    .footer-container3
+    {
         font-size: var(--fs-s);
     }
     .hero-description,
