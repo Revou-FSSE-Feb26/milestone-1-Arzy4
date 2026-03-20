@@ -52,15 +52,30 @@ The development of this website involved the use of several tools and technologi
 
 ---
 
-## How to Access the Website
+## How to Deploy and Access the Website
 
-The website is deployed using GitHub Pages and can be accessed through the following link:
+### Deployment
+
+This Website is deployed using the Github Pages by following this steps:
+
+1. Navigate to your repository on GitHub
+2. Open "Settings"
+3. Go to "Pages" section
+4. Under "Source", select "Deploy from branch"
+5. Choose main branch and root directory
+6. click save
+
+After a few minutes, GitHub Pages will automatically build and publish the website. A live URL will be generated and displayed at the top of the Pages settings.
+
+### Live Website
+
+My Personal Portfolio Website is now live and can be access through the link below:
 
 `https://revou-fsse-feb26.github.io/milestone-1-Arzy4/`
 
 Once opened, users can navigate through the main sections of the website:
 
-1. **Home** – Introduction for visitors
-2. **About** – Information about my background and journey
-3. **Projects** – A showcase of projects I have worked on
-4. **Contact** – A form and links to reach me through various platforms
+- **Home** – Introduction for visitors
+- **About** – Information about my background and journey
+- **Projects** – A showcase of projects I have worked on
+- **Contact** – A form and links to reach me through various platforms
