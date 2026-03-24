@@ -137,12 +137,6 @@ form.addEventListener("submit", function(e){
     console.log("Email:", email);
     console.log("Message:", message);
 
-    successMessage.classList.add("show");
-
-    setTimeout(function(){
-        successMessage.classList.remove("show");
-    }, 3000);
-
     form.reset();
 });
 

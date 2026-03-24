@@ -189,7 +189,7 @@ section{
     justify-content: center;
     align-items: center;
     gap: 3rem;
-    padding: 5rem 1rem 10rem 1rem;
+    padding: 2rem 1rem 4rem 1rem;
 }
 .hero-image img{
     width: 500px;
@@ -416,20 +416,6 @@ section{
     background-color: var(--hover2);
     color: var(--accent);
     transform: translateY(-10px);
-}
-/* Success Message */
-.sc-container{
-    display: flex;
-    justify-content: center;
-}
-.success-message{
-    opacity: 0;
-    color: #4a874a;
-    font-weight: bold;
-    transition: opacity 0.5s ease;
-}
-.success-message.show{
-    opacity: 1;
 }
 
 /* Footer */
