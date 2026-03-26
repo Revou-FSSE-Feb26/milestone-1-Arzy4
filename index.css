@@ -202,13 +202,16 @@ section{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
-    height: 100vh;
+    height: 100svh;
 }
 .hero::before {
     content: "";
     position: absolute;
-    inset: 0;
+    top: 0;
+    left: 0;
     background: rgba(213, 213, 240, 0.7);
+    height: 100%;
+    width: 100%;
     z-index: 1;
 }
 .hero-container{
