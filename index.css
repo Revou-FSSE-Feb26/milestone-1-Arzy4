@@ -90,13 +90,11 @@
 .update-info{
     color: var(--light);
 }
-.navbar-navigation a:hover{
-    color: var(--hover1);
-}
+.navbar-navigation a:hover,
 .social-links-list a:hover,
 .footer-container2 a:hover,
 .footer-container3 a:hover{
-    color: var(--hover2);
+    color: var(--hover1);
 }
 .projects,
 .contact,
@@ -173,7 +171,7 @@ section{
     color: var(--light);
 }
 .navbar-container.animation a:hover{
-    color: var(--hover2);
+    color: var(--hover1);
 }
 .navbar-container
 .navbar-logo{
