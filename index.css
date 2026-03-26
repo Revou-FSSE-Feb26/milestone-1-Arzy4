@@ -4,8 +4,8 @@
     --accent: #272757;
     --highlight: #505081;
     --light: #d5d5e6;
-    --hover1: #305cde;
-    --hover2: #59B5F7;
+    --hover1: #59B5F7;
+    --hover2: #305cde;
 
     --fs-h1: 60px;
     --fs-h2: 45px;
@@ -17,7 +17,7 @@
 
     --shadow-container: 0 10px 4px rgba(0,0,0,0.1);
     --shadow-img: 10px 10px 10px rgba(0,0,0,0.15);
-    --shadow-text: 2px 2px 3px rgba(0, 0, 0, 0.2); 
+    --shadow-text: 2px 2px 5px rgba(0, 0, 0, 0.2); 
 }
 
 /* Group */
@@ -124,9 +124,9 @@
     box-sizing:border-box;
 }
 body{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background: linear-gradient(135deg, var(--light), var(--highlight));
     text-shadow: var(--shadow-text);
+    font-family: 'Roboto', sans-serif;
 }
 section{
     scroll-margin-top: 110px;
@@ -143,6 +143,9 @@ section{
     margin: 4rem 5%;
     border-color: var(--accent);
 }
+.highlight1{
+    color: var(--hover1);
+}
 
 /* Navbar */
 .navbar-container{
@@ -150,12 +153,17 @@ section{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    top: 0;
-    z-index: 100;
     padding: 2rem;
-    background-color: transparent;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    transition: 0.5s;
+}
+.navbar-container a:hover{
+    color: var(--hover2);
 }
 .navbar-container.animation{
+    transition: 0.5s;
     position: fixed;
     width: 100%;
     background-color: var(--dark);
@@ -188,24 +196,38 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10rem 0 0;
     gap: 3rem;
-    padding: 2rem 1rem 4rem 1rem;
+    z-index: 1;
+
+    background-image: url("image/Profile_Picture.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 100vh;
 }
-.hero-image img{
-    width: 500px;
-    border-radius: 250px;
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(213, 213, 240, 0.7);
+    z-index: 1;
+}
+.hero-container{
+    z-index: 2;
 }
 .hero-heading{
     font-size: var(--fs-h1);
-    margin: 2rem 0 1rem;
+    text-align: center;
 }
 .hero-description{
     max-width: 700px;
-    text-align: justify;
+    text-align: center;
+    padding: 2rem 0;
 }
 /* Hero Button */
 .hero-btn{
-    padding-top: 1.5rem;
+    text-align: center;
 }
 .hero-btn button{
     padding: 10px;
@@ -220,7 +242,7 @@ section{
     color: var(--light);
 }
 .hero-btn button:hover{
-    background-color: var(--hover2);
+    background-color: var(--hover1);
     transform: translateY(-10px);
 }
 .hero-btn button:hover a{
@@ -271,9 +293,6 @@ section{
 .projects-container figcaption:hover{
     color: var(--hover1);
 }
-.highlight1{
-    color: var(--hover1);
-}
 
 /* About */
 /* Bio */
@@ -290,7 +309,7 @@ section{
     text-align: justify;
 }
 .about-image img{
-    width: 350px;
+    width: 400px;
     border-radius: 60px;
 }
 .about-heading1{
@@ -332,9 +351,7 @@ section{
     gap: 2rem;
     padding: 0 1rem 5rem;
 }
-.highlight2{
-    color: var(--hover2);
-}
+
 /* Contact Input Form */
 .contact-text{
     display: flex;
@@ -413,7 +430,7 @@ section{
     box-shadow: 2px 2px 6px rgb(0, 0, 0);
 }
 .cp-btn button:hover{
-    background-color: var(--hover2);
+    background-color: var(--hover1);
     color: var(--accent);
     transform: translateY(-10px);
 }
@@ -484,11 +501,6 @@ footer{
 }
 @media(max-width: 1024px){
     /* Hero */
-    .hero{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
     .hero-container{
         order: 2;
     }
@@ -496,11 +508,8 @@ footer{
         width: 300px;
         order: 1;
     }
-    .hero-heading{
-        text-align: center;
-    }
+    .hero-heading,
     .hero-description{
-        text-align: justify;
         margin: 0 1rem;
     }
     .hero-btn{
