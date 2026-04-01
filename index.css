@@ -504,7 +504,7 @@ main{
     text-decoration: none;
 }
 .social-links-list img{
-    width: 30px;
+    max-width: 30px;
     transition: transform 0.3s ease;
 }
 .social-links-list img:hover{
@@ -761,6 +761,11 @@ footer{
     }
     .projects-container img{
         max-width: 250px;
+        width: 100%;
+    }
+
+    /* Contact */
+    .social-links-list img{
         width: 100%;
     }
 
