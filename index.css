@@ -27,6 +27,9 @@
 .contact-heading h2,
 .footer-heading{
     font-size: var(--fs-35);
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 .about-heading1,
 .st-heading,
@@ -124,7 +127,7 @@
 body{
     background: linear-gradient(135deg, var(--light), var(--highlight));
     text-shadow: var(--shadow-text);
-    font-family: 'Roboto', sans-serif;
+    font-family: "Inter", sans-serif;
 }
 section{
     scroll-margin-top: 100px;
@@ -290,6 +293,9 @@ main{
 }
 .hero-heading{
     font-size: var(--fs-50);
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
     text-align: center;
 }
 .hero-description{
