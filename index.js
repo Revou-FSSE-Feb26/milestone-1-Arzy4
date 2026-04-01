@@ -1,4 +1,4 @@
-// skill & tools slider
+// Skills & Tools Carousel
 const stContainer = document.querySelector(".st-container2");
 const stSlides = document.querySelectorAll(".st-container2 li");
 const stMobile = window.matchMedia("(max-width:768px)");
@@ -20,7 +20,7 @@ function nextSkillSlide(){
     showSkillSlide(stIndex);
 }
 
-// autoplay
+// Autoplay
 function checkSkillSlider(){
     clearInterval(stAutoplay);
 
@@ -35,11 +35,13 @@ function checkSkillSlider(){
 checkSkillSlider();
 stMobile.addEventListener("change", checkSkillSlider);
 
-// swipe gesture
+// Swipe Gesture
+// Touch Start
 stContainer.addEventListener("touchstart", (e) => {
     stStartX = e.touches[0].clientX;
 });
 
+// Touch End
 stContainer.addEventListener("touchend", (e) => {
     stEndX = e.changedTouches[0].clientX;
 
@@ -58,7 +60,7 @@ stContainer.addEventListener("touchend", (e) => {
     stAutoplay = setInterval(nextSkillSlide,3000);
 });
 
-// project card slider
+// Project Card Carousel
 const pContainer = document.querySelector(".projects-container");
 const pSlides = document.querySelectorAll(".projects-container article");
 const pMobile = window.matchMedia("(max-width:1200px)");
@@ -120,7 +122,7 @@ pContainer.addEventListener("touchend", (e) => {
     pAutoplay = setInterval(nextSlide, 3000);
 });
 
-// send input form data to console
+// Send Input Form Data to Console
 const form = document.querySelector("#form");
 const successMessage = document.querySelector("#success-message");
 
@@ -144,10 +146,43 @@ form.addEventListener("submit", function(e){
 const navbar = document.getElementById("navbar-container");
 
 window.addEventListener("scroll", () => {
-  if (window.scrollY > 100) {
+    if (window.scrollY > 200) {
+        navbar.classList.add("animation");
+    } else {
+         navbar.classList.remove("animation");
+    }
+});
 
-    navbar.classList.add("animation");
-  } else {
-    navbar.classList.remove("animation");
-  }
+// Dropdown Menu Toggle
+const burger = document.getElementById("burger");
+const menu = document.getElementById("mobile-menu");
+const overlay = document.getElementById("overlay");
+const links = document.querySelectorAll("#mobile-menu a");
+
+burger.addEventListener("click", () => {
+    menu.classList.toggle("active");
+    overlay.classList.toggle("active");
+});
+
+// Close menu when clicking on a link
+links.forEach(link => {
+    link.addEventListener("click", () => {
+        menu.classList.remove("active");
+        overlay.classList.remove("active");
+    });
+});
+
+// Close when clicking overlay
+overlay.addEventListener("click", () => {
+    menu.classList.remove("active");
+    overlay.classList.remove("active");
+});
+
+// Parallax Effect
+const hero = document.querySelector(".hero");
+
+window.addEventListener("scroll", () => {
+    let scrollY = window.scrollY;
+
+    hero.style.backgroundPosition = `center ${-scrollY * 0.3}px`;
 });

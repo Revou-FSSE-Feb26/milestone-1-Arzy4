@@ -39,12 +39,12 @@ Key implementations include:
 
 This portfolio includes new updates with additional features such as:
 
-- Introduced a **new color theme** to improve visual consistency across the website. 
-- **Enhanced the background** with a more engaging gradient design to create a more appealing user interface.
 - **Redesigned the portfolio layout** for better structure and improved user experience.
 - Added **“Skills & Tools” section** to the About page to highlight technical competencies and technologies used.
 - Added **responsive carousel** for Skills & Tools icons and Project cards (≤1200px screen width).
 - Added a **call-to-action button** in the Home section to make it easier for visitors to navigate to the Contact section.
+- Implemented a **mobile-friendly dropdown navigation menu (burger menu)** to improve usability on smaller screens.
+- Added a **parallax scrolling effect** in the Home section background to enhance visual depth and create a more dynamic user experience.
 
 ---
 
