@@ -274,7 +274,7 @@ main{
     background-image: url("image/Profile_Picture.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center top;
+    background-position: top;
     background-attachment: fixed;
     height: 100svh;
 }
@@ -641,7 +641,11 @@ footer{
     /* Global */
     main{
         margin-bottom: 0;
-    }    
+    }
+    /* Hero */
+    .hero{
+        background-attachment: scroll;
+    }
 
     /* projects */
     .projects-wrapper h3{

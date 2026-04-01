@@ -180,9 +180,12 @@ overlay.addEventListener("click", () => {
 
 // Parallax Effect
 const hero = document.querySelector(".hero");
+const isMobile = window.matchMedia("(max-width: 768px)");
 
 window.addEventListener("scroll", () => {
-    let scrollY = window.scrollY;
+    if (!isMobile.matches){
+        let scrollY = window.scrollY;
 
-    hero.style.backgroundPosition = `center ${-scrollY * 0.3}px`;
+        hero.style.backgroundPosition = `center ${-scrollY * 0.3}px`;
+    }
 });
