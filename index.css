@@ -54,7 +54,7 @@
 .footer-container3 a{
     font-size: var(--fs-18);
 }
-.hero-btn a, .cp-btn button{
+.hero-btn button, .cp-btn button{
     font-size: var(--fs-16);
 }
 .update-container{
@@ -106,6 +106,7 @@
 }
 .hero img,
 .about-image img,
+.latest-projects img,
 .projects-container img,
 .cp-container input,
 .cp-container textarea{
@@ -315,16 +316,10 @@ main{
     transition: transform 0.3s ease;
     box-shadow: 0 0 20px rgb(48, 92, 222);
 }
-.hero-btn a{
-    text-decoration: none;
-    color: var(--light);
-}
 .hero-btn button:hover{
     background-color: var(--hover1);
-    transform: translateY(-10px);
-}
-.hero-btn button:hover a{
     color: var(--dark);
+    transform: translateY(-10px);
 }
 
 /* Projects */
