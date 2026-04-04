@@ -11,7 +11,7 @@
 <body>
     <!-- Navbar Start -->
     <header>
-        <nav id="navbar-wrapper">
+        <nav id="navbar-wrapper" aria-label="main-navigation">
             <div id="navbar-container" class="navbar-container">
 
                 <!-- Navbar Links & Logo -->
@@ -33,7 +33,7 @@
         </nav>
 
         <!-- Navbar Overlay -->
-        <div id="overlay" class="overlay"></div>
+        <div id="overlay" class="overlay" aria-label="mobile-menu-navigation"></div>
 
         <nav id="mobile-menu" class="mobile-menu">
             <a href="#Home">Home</a>
@@ -49,6 +49,7 @@
 
         <section id="Home" class="hero">
             <div class="hero-container">
+
                 <!-- Hero Title & Description -->
                 <h1 class="hero-heading">Hi, I’m Robby Arzy</h1>
                 <p class="hero-description">
@@ -57,7 +58,7 @@
 
                 <!-- Hero Button -->
                 <div class="hero-btn">
-                    <button href="#Contact" type="redirect" aria-label="Contact Me">
+                    <button href="#Contact" type="button" aria-label="Let's Connect">
                         Let's Connect
                     </button>
                 </div>

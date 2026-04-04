@@ -124,7 +124,7 @@ pContainer.addEventListener("touchend", (e) => {
 
 // Send Input Form Data to Console
 const form = document.querySelector("#form");
-const successMessage = document.querySelector("#success-message");
+const successMessage = document.querySelector("#success-message"); //need to add to the index.html and index.css
 
 form.addEventListener("submit", function(e){
     e.preventDefault();
